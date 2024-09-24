@@ -18,7 +18,13 @@
   <!-- Loader 
   <div class="loader">
     <div class="loader-spinner"></div>
-</div>
+</div>-->
+
+    <body oncontextmenu="return false">
+<!-- pre loader -->
+ <div class="loader">
+  <img draggable="false" src="./assets/images/loader.gif" alt="">
+</div> 
  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
   <script src="(link unavailable)"></script>
   <script src="(link unavailable)"></script>
@@ -49,7 +55,7 @@
       align-items: center;
     }
     
-    .loader-spinner {
+    .loader{
       border: 16px solid #f3f3f3;
       border-top: 16px solid #3498db;
       border-radius: 50%;
@@ -58,18 +64,13 @@
       animation: spin 2s linear infinite;
     }
     
-    @keyframes spin {
+    @keyframes loader{
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
   </style>
 </head>
-<body oncontextmenu="return false">
 
-<!-- pre loader -->
- <div class="loader-container">
-  <img draggable="false" src="./assets/images/loader.gif" alt="">
-</div> 
 <!-- navbar starts -->
 <header>
         <a href="#" class="logo"><i></i>SAHILKHAN </a>

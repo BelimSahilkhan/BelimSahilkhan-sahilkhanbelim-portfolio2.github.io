@@ -13,6 +13,86 @@
     <!-- Favicon -->
     <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
     <title>Portfolio | Sahilkhan</title>
+<body oncontextmenu="return false">
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader-spinner"></div>
+  </div>
+  
+  <!-- navbar starts -->
+  <header>...</header>
+  
+  <!-- hero section starts -->
+  <section class="home" id="home">...</section>
+  
+  <!-- about section starts -->
+  <section class="about" id="about">...</section>
+  
+  <!-- skills section starts -->
+  <section class="skills" id="skills">...</section>
+  
+  <!-- education section starts -->
+  <section class="education" id="education">...</section>
+  
+  <!-- work project section starts -->
+  <section class="work" id="work">...</section>
+  
+  <!-- experience section starts -->
+  <section class="experience" id="experience">...</section>
+  
+  <!-- contact section starts -->
+  <section class="contact" id="contact">...</section>
+  
+  <!-- footer section starts -->
+  <section class="footer">...</section>
+  
+  <!-- scroll top btn -->
+  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+  
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+  <script src="(link unavailable)"></script>
+  <script src="(link unavailable)"></script>
+  <script src="./assets/js/particles.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+  <script src="(link unavailable)"></script>
+  <script type="text/javascript" src="(link unavailable)"></script>
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+  
+  <script>
+    // Loader
+    setTimeout(() => {
+      document.querySelector('.loader').style.display = 'none';
+    }, 3000);
+  </script>
+  
+  <style>
+    .loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .loader-spinner {
+      border: 16px solid #f3f3f3;
+      border-top: 16px solid #3498db;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      animation: spin 2s linear infinite;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
 </head>
 <body oncontextmenu="return false">
 
